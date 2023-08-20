@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px) {
+    .nadpis {
+        margin: 5px;
+        padding: 5px;
+        font-size: 3rem; /* můžete upravit velikost písma pro lepší čitelnost na menších obrazovkách */
+    }
+
+    nav ul {
+        flex-direction: column; /* Zarovná položky nad sebou */
+        align-items: center;    /* Zarovná položky horizontálně na střed */
+    }
+
+    nav li + li { 
+        margin-top: -10px; /* Přidá vertikální mezeru mezi položkami */
+    }
+
+    nav a {
+        font-size: 0.9rem;    /* Zmenší velikost písma */
+        padding: 12px 24px;   /* Zvětší padding pro lepší klikatelnost */
+        font-size: 1.8rem;
+        font-style: bold;
+    }
+
+    .preview {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border: 2px solid #888;
+        margin: 5px;
+        cursor: pointer;
+        display: inline-block;
+        transition: transform 0.3s;
+    }
+
+    @media screen and (max-width: 768px) {
+        .kontakt table {
+            width: 90%; /* Šířka tabulky je 100% na menších obrazovkách */
+            height: 50vh;
+        }
+            
+        }
+    
+        .kontakt th, .kontakt td {
+            padding: 8px 10px; /* Menší vnitřní okraj pro buňky tabulky na menších obrazovkách */
+            padding-top: 25px;
+            padding-bottom: 25px;
+            
+            
+        }
+
+        .kontakt {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+    
+    }
+
+    
+
+    
